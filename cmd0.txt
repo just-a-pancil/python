@@ -1,0 +1,924 @@
+Microsoft Windows [Version 10.0.17134.345]
+(c) Корпорация Майкрософт (Microsoft Corporation), 2018. Все права защищены.
+
+C:\Users\Sand>python
+Python 3.7.1 (v3.7.1:260ec2c36a, Oct 20 2018, 14:57:15) [MSC v.1915 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> 11111+1111111
+1122222
+>>> 11111*1111111
+12345554321
+>>> 42/(4+2*(-2))
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ZeroDivisionError: division by zero
+>>> 239%10
+9
+>>> 2014**14
+18064773765607550801425251468864907833685590016
+>>> 5*5
+25
+>>> 5*-5
+-25
+>>> 5*+5
+25
+>>> -5*+5
+-25
+>>> -5*+-5
+25
+>>> -5*+-+5
+25
+>>> -5*+-++5
+25
+>>> -5*+-++-5
+-25
+>>> 0.5
+0.5
+>>> 0.5=
+  File "<stdin>", line 1
+    0.5=
+       ^
+SyntaxError: invalid syntax
+>>> 0.5+0.7
+1.2
+>>> 0.5+0.73
+1.23
+>>> 0.5+0.3
+0.8
+>>> 0.5**0.3
+0.8122523963562356
+>>> 0.5*0.3
+0.15
+>>> 0.5/0.3
+1.6666666666666667
+>>> 0.5//0.3
+1.0
+>>> 0.5//2
+0.0
+>>> 0.5//1
+0.0
+>>> 0.5//0.1
+4.0
+>>> 0.5/0.1
+5.0
+>>> 0.5//0.1
+4.0
+>>> 0.3+0.3+0.3
+0.8999999999999999
+>>> 1234e-2
+12.34
+>>>  1234e2
+  File "<stdin>", line 1
+    1234e2
+    ^
+IndentationError: unexpected indent
+>>> 1234e2
+123400.0
+>>> 1.2345e3
+1234.5
+>>> 1.2345e-3
+0.0012345
+>>> 2014e14
+2.014e+17
+>>> 2.014e14
+201400000000000.0
+>>> 2014.0**14
+1.806477376560755e+46
+>>> 7/3
+2.3333333333333335
+>>> int(2.99)
+2
+>>> int(-1.6)
+-1
+>>> 9**19 - int(float(9**19))
+89
+>>> 9**19
+1350851717672992089
+>>> float(9**19)
+1.350851717672992e+18
+>>> int(1.350851717672992e+18)
+1350851717672992000
+>>> type(2)
+<class 'int'>
+>>> type(7.0)
+<class 'float'>
+>>> a=foo()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'foo' is not defined
+>>> a=re()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 're' is not defined
+>>> a=sqr()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'sqr' is not defined
+>>> a=2
+>>> tipe(a)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'tipe' is not defined
+>>> type(a)
+<class 'int'>
+>>> a='aaaaa'a
+  File "<stdin>", line 1
+    a='aaaaa'a
+             ^
+SyntaxError: invalid syntax
+>>> a='aaaaa'
+>>> a
+'aaaaa'
+>>> type(a)
+<class 'str'>
+>>> a=1
+>>> type(a)
+<class 'int'>
+>>> cd C:\python\stepik
+  File "<stdin>", line 1
+    cd C:\python\stepik
+       ^
+SyntaxError: invalid syntax
+>>> exit()
+
+C:\Users\Sand>cd C:\python\stepik
+
+C:\python\stepik>python in
+python: can't open file 'in': [Errno 2] No such file or directory
+
+C:\python\stepik>python in.py
+Ты пидорd
+no ud
+
+C:\python\stepik>python in.py
+Ты пидор
+please sai smthg
+no ug
+
+C:\python\stepik>python in.py
+Ты пидор
+please sai smth: no u
+no u, no u
+
+C:\python\stepik>python
+Python 3.7.1 (v3.7.1:260ec2c36a, Oct 20 2018, 14:57:15) [MSC v.1915 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> input('Ты пидор')
+Ты пидор
+''
+>>> a=input('Ты пидор')
+Ты пидорs
+>>> type(a)
+<class 'str'>
+>>> a=input('Ты пидор')
+Ты пидор1
+>>> type(a)
+<class 'str'>
+>>> a=int(input('Ты пидор'))
+Ты пидорd
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: invalid literal for int() with base 10: 'd'
+>>> a=int(input('Ты пидор'))
+Ты пидор7
+>>> type(a)
+<class 'int'>
+>>> sample.py
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'sample' is not defined
+>>> exit()
+
+C:\python\stepik>sample.py
+  File "C:\python\stepik\sample.py", line 2
+    print(a/60'\n'a//60)
+                 ^
+SyntaxError: invalid syntax
+
+C:\python\stepik>sample.py
+512
+(8, '\n', 8)
+
+C:\python\stepik>sample.py
+48
+0
+
+C:\python\stepik>sample.py
+480
+8
+
+C:\python\stepik>sample.py
+480
+8
+8
+
+C:\python\stepik>sample.py
+480
+8
+0
+
+C:\python\stepik>sample.py
+512
+8
+32
+
+C:\python\stepik>sample.py
+512
+8
+32
+
+C:\python\stepik>sample.py
+480
+1
+2
+8
+0
+
+C:\python\stepik>sample.py
+1
+1
+1
+61
+
+C:\python\stepik>sample.py
+480
+1
+2
+9
+542
+
+C:\python\stepik>sample.py
+480
+1
+2
+9
+5419.0
+
+C:\python\stepik>sample.py
+480
+1
+2
+9
+2
+
+C:\python\stepik>sample.py
+475
+1
+55
+9
+50
+
+C:\python\stepik>
+C:\python\stepik>sample.py
+True
+
+C:\python\stepik>sample.py
+True
+
+C:\python\stepik>sample.py
+False
+
+C:\python\stepik>sample.py
+Hi
+
+C:\python\stepik>sample.py
+Bye
+
+C:\python\stepik>sample.py
+  File "C:\python\stepik\sample.py", line 4
+    print "Bye"
+        ^
+IndentationError: expected an indented block
+
+C:\python\stepik>sample.py
+Bye
+
+C:\python\stepik>sample.py
+  File "C:\python\stepik\sample.py", line 4
+    print "Bye"
+        ^
+IndentationError: expected an indented block
+
+C:\python\stepik>sample.py
+Hi
+
+C:\python\stepik>sample.py
+
+C:\python\stepik>cd if
+
+C:\python\stepik\if>if.py
+ILY
+Traceback (most recent call last):
+  File "C:\python\stepik\if\if.py", line 1, in <module>
+    a,b,h = int(input()),int(input()),int(input())
+  File "<string>", line 1, in <module>
+NameError: name 'ILY' is not defined
+
+C:\python\stepik\if>if.py
+1
+2
+3
+(1, 2, 3)
+
+C:\python\stepik\if>if.py
+5
+6
+7
+(5, 6, 7)
+
+C:\python\stepik\if>if.py
+  File "C:\python\stepik\if\if.py", line 2
+    if a<=h<=b
+             ^
+SyntaxError: invalid syntax
+
+C:\python\stepik\if>
+C:\python\stepik\if>5
+"5" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+C:\python\stepik\if>5
+"5" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+C:\python\stepik\if>if.py
+  File "C:\python\stepik\if\if.py", line 2
+    if a<=h<=b
+             ^
+SyntaxError: invalid syntax
+
+C:\python\stepik\if>if.py
+  File "C:\python\stepik\if\if.py", line 3
+SyntaxError: Non-ASCII character '\xd0' in file C:\python\stepik\if\if.py on line 3, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+
+C:\python\stepik\if>if.py
+  File "C:\python\stepik\if\if.py", line 3
+SyntaxError: Non-ASCII character '\xd0' in file C:\python\stepik\if\if.py on line 3, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+
+C:\python\stepik\if>if.py
+  File "C:\python\stepik\if\if.py", line 3
+SyntaxError: Non-ASCII character '\xd0' in file C:\python\stepik\if\if.py on line 3, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+
+C:\python\stepik\if>if.py
+  File "C:\python\stepik\if\if.py", line 3
+SyntaxError: Non-ASCII character '\xd0' in file C:\python\stepik\if\if.py on line 3, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+
+C:\python\stepik\if>if.py
+  File "C:\python\stepik\if\if.py", line 3
+SyntaxError: Non-ASCII character '\xd0' in file C:\python\stepik\if\if.py on line 3, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+
+C:\python\stepik\if>if.py
+  File "C:\python\stepik\if\if.py", line 4
+SyntaxError: Non-ASCII character '\xd0' in file C:\python\stepik\if\if.py on line 4, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+
+C:\python\stepik\if>if.py
+  File "C:\python\stepik\if\if.py", line 3
+SyntaxError: Non-ASCII character '\xd0' in file C:\python\stepik\if\if.py on line 3, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+
+C:\python\stepik\if>if.py
+4
+4
+4
+d
+
+C:\python\stepik\if>if.py
+  File "C:\python\stepik\if\if.py", line 3
+SyntaxError: Non-ASCII character '\xd0' in file C:\python\stepik\if\if.py on line 3, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+
+C:\python\stepik\if>if.py
+  File "C:\python\stepik\if\if.py", line 3
+SyntaxError: Non-ASCII character '\xd0' in file C:\python\stepik\if\if.py on line 3, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+
+C:\python\stepik\if>if.py
+  File "C:\python\stepik\if\if.py", line 3
+SyntaxError: Non-ASCII character '\xd0' in file C:\python\stepik\if\if.py on line 3, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+
+C:\python\stepik\if>if.py
+4
+4
+4
+¦нTВ¦- ¦-¦-TА¦-¦-¦¬TМ¦-¦-
+
+C:\python\stepik\if>if.py
+5
+5
+5
+¦нTВ¦- ¦-¦-TА¦-¦-¦¬TМ¦-¦-
+
+C:\python\stepik\if>if.py
+  File "C:\python\stepik\if\if.py", line 1
+SyntaxError: encoding problem: .utf-8.-
+
+C:\python\stepik\if>if.py
+  File "C:\python\stepik\if\if.py", line 1
+SyntaxError: encoding problem: .utf-8.-
+
+C:\python\stepik\if>if.py
+4
+5
+7
+
+C:\python\stepik\if>
+C:\python\stepik\if>
+C:\python\stepik\if>
+C:\python\stepik\if>
+C:\python\stepik\if>
+C:\python\stepik\if>if.py
+7
+7
+
+Traceback (most recent call last):
+  File "C:\python\stepik\if\if.py", line 2, in <module>
+    a,b,h = int(input()),int(input()),int(input())
+  File "<string>", line 0
+
+    ^
+SyntaxError: unexpected EOF while parsing
+
+C:\python\stepik\if>if.py
+7
+7
+7
+¦нTВ¦- ¦-¦-TА¦-¦-¦¬TМ¦-¦-
+
+C:\python\stepik\if># -*- encoding: utf-8 -*-
+"#" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+C:\python\stepik\if>chcp 65001
+Active code page: 65001
+
+C:\python\stepik\if># -*- encoding: utf-8 -*-
+'#' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\python\stepik\if>if.py
+6
+6
+6
+Traceback (most recent call last):
+  File "C:\python\stepik\if\if.py", line 4, in <module>
+    print('Это нормально')
+IOError: [Errno 22] Invalid argument
+
+C:\python\stepik\if>if.py
+6
+6
+6
+Traceback (most recent call last):
+  File "C:\python\stepik\if\if.py", line 4, in <module>
+    print('Это нормально')
+IOError: [Errno 22] Invalid argument
+
+C:\python\stepik\if>if.py
+5
+5
+5
+Traceback (most recent call last):
+  File "C:\python\stepik\if\if.py", line 4, in <module>
+    print("Это нормально")
+IOError: [Errno 22] Invalid argument
+
+C:\python\stepik\if>if.py
+5
+5
+5
+Traceback (most recent call last):
+  File "C:\python\stepik\if\if.py", line 4, in <module>
+    print('Это_нормально')
+IOError: [Errno 22] Invalid argument
+
+C:\python\stepik\if>if.py
+5
+5
+5
+h
+
+C:\python\stepik\if>if.py
+4
+5
+5
+Traceback (most recent call last):
+  File "C:\python\stepik\if\if.py", line 4, in <module>
+    print('абв')
+IOError: [Errno 22] Invalid argument
+
+C:\python\stepik\if>if.py
+5
+5
+5
+Traceback (most recent call last):
+  File "C:\python\stepik\if\if.py", line 4, in <module>
+    print 'абв'
+IOError: [Errno 22] Invalid argument
+
+C:\python\stepik\if>if.py
+6
+6
+6
+Traceback (most recent call last):
+  File "C:\python\stepik\if\if.py", line 4, in <module>
+    print'абв'
+IOError: [Errno 22] Invalid argument
+
+C:\python\stepik\if>if.py
+5
+5
+5
+Traceback (most recent call last):
+  File "C:\python\stepik\if\if.py", line 4, in <module>
+    print "абв"
+IOError: [Errno 22] Invalid argument
+
+C:\python\stepik\if>if.py
+5
+5
+5
+Traceback (most recent call last):
+  File "C:\python\stepik\if\if.py", line 4, in <module>
+    print "абв"
+IOError: [Errno 22] Invalid argument
+
+C:\python\stepik\if>if.py
+2
+3
+4
+
+C:\python\stepik\if>if.py
+1
+6
+3
+Traceback (most recent call last):
+  File "C:\python\stepik\if\if.py", line 4, in <module>
+    print ("абв")
+IOError: [Errno 22] Invalid argument
+
+C:\python\stepik\if>if.py
+4
+4
+4
+Ento norma
+
+C:\python\stepik\if>if.py
+6
+10
+8
+Ento norma
+
+C:\python\stepik\if>if.py
+7
+9
+10
+Peresup
+
+C:\python\stepik\if>if.py
+7
+9
+2
+Nedosup
+
+C:\python\stepik\if>if.py
+6 10 8
+Traceback (most recent call last):
+  File "C:\python\stepik\if\if.py", line 1, in <module>
+    a,b,h = int(input()),int(input()),int(input())
+  File "<string>", line 1
+    6 10 8
+       ^
+SyntaxError: invalid syntax
+
+C:\python\stepik\if>if.py
+6
+10
+8
+Ento norma
+
+C:\python\stepik\if>if.py
+5
+5
+5
+Ento norma
+
+C:\python\stepik\if>cd ..
+
+C:\python\stepik>sample.py
+  File "C:\python\stepik\sample.py", line 4
+    elif:
+        ^
+SyntaxError: invalid syntax
+
+C:\python\stepik>sample.py
+1
+Obuchnuy
+
+C:\python\stepik>sample.py
+4
+Visokosnuy
+
+C:\python\stepik>sample.py
+5
+Obuchnuy
+
+C:\python\stepik>sample.py
+400
+Obuchnuy
+
+C:\python\stepik>sample.py
+2100
+Obuchnuy
+
+C:\python\stepik>sample.py
+2000
+Obuchnuy
+
+C:\python\stepik>sample.py
+2000
+Obuchnuy
+
+C:\python\stepik>sample.py
+2000
+Obuchnuy
+
+C:\python\stepik>sample.py
+2000
+Obuchnuy
+
+C:\python\stepik>sample.py
+2000
+Obuchnuy
+
+C:\python\stepik>sample.py
+2000
+2000
+Obuchnuy
+
+C:\python\stepik>sample.py
+2000
+2000
+Obuchnuy
+
+C:\python\stepik>
+C:\python\stepik>sample.py
+  File "C:\python\stepik\sample.py", line 3
+    print('\'a%4==0\' is '+a%4==0)
+        ^
+IndentationError: expected an indented block
+
+C:\python\stepik>sample.py
+2000
+Traceback (most recent call last):
+  File "C:\python\stepik\sample.py", line 6, in <module>
+    print('\'a%4==0\' is '+a%4==0)
+TypeError: cannot concatenate 'str' and 'int' objects
+
+C:\python\stepik>sample.py
+2000
+Traceback (most recent call last):
+  File "C:\python\stepik\sample.py", line 6, in <module>
+    print('\'a%4==0\' is '+a%4==0)
+TypeError: cannot concatenate 'str' and 'int' objects
+
+C:\python\stepik>sample.py
+2000
+'a%4==0' is True
+Obuchnuy
+
+C:\python\stepik>sample.py
+2000
+False
+Obuchnuy
+
+C:\python\stepik>sample.py
+2000
+False
+Obuchnuy
+
+C:\python\stepik>sample.py
+  File "C:\python\stepik\sample.py", line 4
+    print('Visokosnuy')
+        ^
+SyntaxError: invalid syntax
+
+C:\python\stepik>
+C:\python\stepik>sample.py
+  File "C:\python\stepik\sample.py", line 4
+    print('Visokosnuy')
+        ^
+SyntaxError: invalid syntax
+
+C:\python\stepik>sample.py
+  File "C:\python\stepik\sample.py", line 4
+    print('Visokosnuy')
+        ^
+SyntaxError: invalid syntax
+
+C:\python\stepik>sample.py
+  File "C:\python\stepik\sample.py", line 4
+    print('Visokosnuy')
+        ^
+SyntaxError: invalid syntax
+
+C:\python\stepik>sample.py
+  File "C:\python\stepik\sample.py", line 4
+    println('Visokosnuy')
+          ^
+SyntaxError: invalid syntax
+
+C:\python\stepik>sample.py
+  File "C:\python\stepik\sample.py", line 3
+    print('\'a%4==0\' is '+ str(((a%4==0) and not a%100==0) or (a%4==400));
+                                                                          ^
+SyntaxError: invalid syntax
+
+C:\python\stepik>sample.py
+  File "C:\python\stepik\sample.py", line 4
+    print('Visokosnuy')
+        ^
+SyntaxError: invalid syntax
+
+C:\python\stepik>sample.py
+  File "C:\python\stepik\sample.py", line 4
+    print ('Visokosnuy')
+        ^
+SyntaxError: invalid syntax
+
+C:\python\stepik>sample.py
+  File "C:\python\stepik\sample.py", line 4
+    print ('Visokosnuy')
+        ^
+SyntaxError: invalid syntax
+
+C:\python\stepik>sample.py
+  File "C:\python\stepik\sample.py", line 4
+    print ('Visokosnuy')
+        ^
+SyntaxError: invalid syntax
+
+C:\python\stepik>sample.py
+  File "C:\python\stepik\sample.py", line 6
+    print ('Obuchnuy')
+        ^
+SyntaxError: invalid syntax
+
+C:\python\stepik>sample.py
+2000
+Obuchnuy
+
+C:\python\stepik>sample.py
+  File "C:\python\stepik\sample.py", line 3
+    print ('\'a%4==0\' is '+ str(((a%4==0) and not a%100==0) or (a%4==400));
+                                                                           ^
+SyntaxError: invalid syntax
+
+C:\python\stepik>sample.py
+  File "C:\python\stepik\sample.py", line 4
+    print ('Visokosnuy')
+        ^
+SyntaxError: invalid syntax
+
+C:\python\stepik>sample.py
+  File "C:\python\stepik\sample.py", line 4
+    print: ('Visokosnuy')
+        ^
+SyntaxError: invalid syntax
+
+C:\python\stepik>sample.py
+  File "C:\python\stepik\sample.py", line 4
+    print ('Visokosnuy')
+        ^
+SyntaxError: invalid syntax
+
+C:\python\stepik>
+C:\python\stepik>
+C:\python\stepik>
+C:\python\stepik>
+C:\python\stepik>
+C:\python\stepik>
+C:\python\stepik>
+C:\python\stepik>
+C:\python\stepik>
+C:\python\stepik>
+C:\python\stepik>
+C:\python\stepik>
+C:\python\stepik>
+C:\python\stepik>
+C:\python\stepik>
+C:\python\stepik>
+C:\python\stepik>
+C:\python\stepik>
+C:\python\stepik>sample.py
+2000
+'a%4==0' is False
+Obuchnuy
+
+C:\python\stepik>sample.py
+2000
+'(a%4==0) and not a%100==0)' is False
+Obuchnuy
+
+C:\python\stepik>sample.py
+2000
+'(a%4==0) and not a%100==0)' is False
+Obuchnuy
+
+C:\python\stepik>sample.py
+  File "C:\python\stepik\sample.py", line 3
+    if (a%4==0)
+              ^
+SyntaxError: invalid syntax
+
+C:\python\stepik>sample.py
+  File "C:\python\stepik\sample.py", line 3
+    if (a%4==0)
+              ^
+SyntaxError: invalid syntax
+
+C:\python\stepik>sample.py
+  File "C:\python\stepik\sample.py", line 3
+    if (a%4==0)
+              ^
+SyntaxError: invalid syntax
+
+C:\python\stepik>sample.py
+  File "C:\python\stepik\sample.py", line 3
+    if (a%4==0)
+              ^
+SyntaxError: invalid syntax
+
+C:\python\stepik>sample.py
+  File "C:\python\stepik\sample.py", line 5
+    elif:
+        ^
+SyntaxError: invalid syntax
+
+C:\python\stepik>sample.py
+  File "C:\python\stepik\sample.py", line 5
+    elif:
+        ^
+SyntaxError: invalid syntax
+
+C:\python\stepik>sample.py
+2000
+Visokosnuy
+
+C:\python\stepik>sample.py
+2100
+Obuchnuy
+
+C:\python\stepik>sample.py
+4
+Visokosnuy
+
+C:\python\stepik>sample.py
+1
+
+C:\python\stepik>sample.py
+1
+
+C:\python\stepik>sample.py
+2
+
+C:\python\stepik>sample.py
+3
+
+C:\python\stepik>sample.py
+5
+
+C:\python\stepik>sample.py
+  File "C:\python\stepik\sample.py", line 5
+    else:
+    ^
+IndentationError: unexpected indent
+
+C:\python\stepik>sample.py
+  File "C:\python\stepik\sample.py", line 5
+    else:
+       ^
+SyntaxError: invalid syntax
+
+C:\python\stepik>sample.py
+  File "C:\python\stepik\sample.py", line 6
+    print('Obuchnuy')
+        ^
+IndentationError: expected an indented block
+
+C:\python\stepik>sample.py
+5
+Obuchnuy
+
+C:\python\stepik>sample.py
+1
+Obuchnuy
+
+C:\python\stepik>sample.py
+  File "C:\python\stepik\sample.py", line 4
+SyntaxError: Non-ASCII character '\xd0' in file C:\python\stepik\sample.py on line 4, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+
+C:\python\stepik>sample.py
+2100
+
+C:\python\stepik>sample.py
+2100
+Obuchnuy
+
+C:\python\stepik>
